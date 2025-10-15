@@ -4,7 +4,7 @@
 ## Contexte du projet
 Ce projet a été réalisé dans le cadre du module MF202 – Transferts thermiques et massiques dans les fluides. 
 L’objectif est de modéliser le comportement thermique d’une tuyère de moteur-fusée soumise à des températures extrêmes lors de la combustion, 
-et d’évaluer l’efficacité des systèmes de refroidissement (régénératif et radiatif).
+et d’évaluer l’efficacité des systèmes de refroidissement.
 
 La tuyère, partie essentielle du moteur-fusée, est soumise à un flux thermique intense pouvant atteindre plusieurs milliers de kelvins. 
 La gestion de ce flux est donc cruciale pour éviter la dégradation des matériaux et assurer la performance du moteur.
@@ -27,7 +27,7 @@ Les conditions aux limites sont :
 - Convection + Rayonnement :
   -k ∂T/∂n = h(T - T_air) + εσ(T⁴ - T_ext⁴)
 
-Ces équations sont discrétisées selon un schéma explicite ou semi-implicite pour une résolution numérique pas à pas.
+Ces équations sont discrétisées pour une résolution numérique pas à pas.
 
 ### 2. Implémentation MATLAB
 Les fonctions principales du projet :
@@ -63,7 +63,7 @@ Les résultats montrent que :
 
 ## Outils utilisés
 - MATLAB
-- Méthode des différences finies / éléments finis
+- Méthode des différences finies 
 - Concepts : transfert thermique, convection, rayonnement, schémas explicites
 
 
